@@ -45,7 +45,7 @@ Similar to the first exploit, this uses "shortcodes" which are non-HTML tags (en
     - Tested in version: <= 4.2.3
     - Fixed in version: 4.2.4
   - [ ] GIF Walkthrough: 
-  ![](week7.3.gif)
+  ![](week7_3.gif)
   - [ ] Steps to recreate: 
 To recreate this exploit, the attacker would first need an account with Contributer or Author
 level permissions. They would then make a post and insert the following code in the gif in the content
