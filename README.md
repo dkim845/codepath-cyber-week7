@@ -39,7 +39,7 @@ whenever the admin (or anyone) hovers their mouse over the "link".
 Similar to the first exploit, this uses "shortcodes" which are non-HTML tags (enclosed by square brackets ‘[]’) that are designed to enable macro content in posts.
 
   - [ ] Affected source code:
-3. (Required) Vulnerability Name or ID
+3. Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: <= 4.2.3
@@ -54,5 +54,5 @@ section:
 This proof of concept exploits the preview_theme() method of Wordpress and with the given tags
 will execute the HMTL code in the content upon hovering over the post body.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/changeset/33549)
+    - [Link to Code](https://core.trac.wordpress.org/changeset/33549)
 
