@@ -17,9 +17,9 @@ Time spent: **X** hours spent in total
 To recreate this exploit, the attacker would first need an account with Contributer or Author
 level permissions. They would then make a post and insert the following code in the content
 section:
-
-'<a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>'
-
+'''
+<a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
+'''
 This proof of concept represents any specially formatted HTML containing JavaScript to be executed
 whenever the admin (or anyone) hovers their mouse over the "link".
   - [ ] Affected source code:
@@ -34,9 +34,9 @@ whenever the admin (or anyone) hovers their mouse over the "link".
 To recreate this exploit, the attacker would first need an account with Contributer or Author
 level permissions. They would then make a post and insert the following code in the content
 section:
-
-'TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Click me</a>'
-
+'''
+TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Click me</a>
+'''
 This proof of concept represents any specially formatted HTML containing JavaScript to be executed
 whenever the admin (or anyone) hovers their mouse over the "link".
 
