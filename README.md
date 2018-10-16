@@ -2,7 +2,7 @@
 
 Time spent: **X** hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: Find, analyze, recreate, and document **three to five vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
@@ -38,7 +38,7 @@ level permissions. They would then make a post and insert the following code in 
 section:
 
 '''
-TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Click me</a>
+\TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Click me</a>\
 '''
 
 This proof of concept represents any specially formatted HTML containing JavaScript to be executed
